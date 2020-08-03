@@ -1,0 +1,31 @@
+{
+  "name": "toyreact",
+  "version": "0.0.1",
+  "description": "homework",
+  "main": "./main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuankurk/ToyReact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "kurk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuankurk/ToyReact/issues"
+  },
+  "homepage": "https://github.com/yuankurk/ToyReact#readme"
+}
