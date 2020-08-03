@@ -1,9 +1,10 @@
-import {ToyReact} from './ToyReact.js'
-class MyComponent {
+import {ToyReact, Component} from './ToyReact.js'
+class MyComponent extends Component {
     render() {
         return <div>
             <span>hello,</span>
             <span>world!</span>
+            <span>{this.children}</span>
             </div>
     }
     setAttribute(name, value) {
@@ -15,7 +16,9 @@ class MyComponent {
         vdom.mountTo(parent)
     }
 }
-let a = <MyComponent name="a"/>;
+let a = <MyComponent name="a">
+            <div>"the child"</div>
+        </MyComponent>;
 // let a = <div name="a"/>
 // console.log(a)
 
